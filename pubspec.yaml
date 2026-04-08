@@ -9,11 +9,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^3.0.0 
+
+flutter_native_splash:
+  color: "#001D3D"             
+  image: assets/posto-de-gasolina.png
+  fullscreen: true
+  android_gravity: center
+  android_12:
+    image: assets/posto-de-gasolina.png
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/posto-de-gasolina.png
